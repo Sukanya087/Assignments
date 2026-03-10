@@ -68,6 +68,21 @@ console.log(salary);
 
 // 6. Symbol - unique and hidden identifier
 
+let CountryOfOrigin = Symbol();
+let ProdInfo = {
+
+ProdcutName : "Laptop",
+ProductPrice : 50000,
+[CountryOfOrigin] : "India",
+
+}
+console.log(ProdInfo);
+
+
+
+
+
+
 
 // non-primitive data types
 // 1. Object - collection of key value pairs within curly braces
@@ -117,7 +132,34 @@ empdata.set(124 ,"Manoj");
 console.log(empdata);
 
 
-// Date()- Date represents a  specific point in time
+// Date()- Date represents a specific point in time
+let currentDate = new Date();
+console.log(currentDate);
+
+// get current year
+console.log(currentDate.getFullYear());
+
+// get current month
+console.log(currentDate.getMonth()+1);
+
+// get current date
+console.log(currentDate.getDate());
+
+// get current day of week
+console.log(currentDate.getDay());
+
+// get current hours
+console.log(currentDate.getHours());
+
+// get current minutes
+console.log(currentDate.getMinutes());
+
+// get current seconds
+console.log(currentDate.getSeconds());
+
+
+
+
 
 
 
