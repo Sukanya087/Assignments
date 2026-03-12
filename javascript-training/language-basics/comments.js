@@ -9,3 +9,5 @@ console.log("Welcome to JavaSceript Training!");
 
 // -Single Line Comment- (Ctrl + /)
 /* Multiline Comment (Shift + Alt + A)*/
+
+ console

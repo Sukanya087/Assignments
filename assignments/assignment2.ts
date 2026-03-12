@@ -38,7 +38,11 @@ let creditscore2: number = 800;
 let income2: number = 66000;
 let isEmployed: boolean = false;
 
-if (creditscore2>= 650 && creditscore2 <= 750) {
+if (creditscore2>750){
+
+    console.log("Loan Approved");
+}
+else if(creditscore2>= 650) {
     if(income2 >= 50000){
 
         if(isEmployed){
@@ -47,10 +51,27 @@ if (creditscore2>= 650 && creditscore2 <= 750) {
             console.log("Customer is unemployed, loan denied");
         }
     }
-
-
 }
+else{
+    console.log("Loan Denied");
+}
+
+
+
+// if (creditscore2>= 650 && creditscore2 <= 750) {
+//     if(income2 >= 50000){
+
+//         if(isEmployed){
+//             console.log("Customer is employed, loan approval process continues");
+//         }else{
+//             console.log("Customer is unemployed, loan denied");
+//         }
+//     }
+
+
+// }
 //4 
+
 let isEmployed1: boolean = true;
 let dti: number = 80;
 
@@ -62,7 +83,11 @@ if (isEmployed1) {
     }
 } else {
     console.log("Loan denied,Customer is unemployed");
+
 }
+
+
+
 
 
 

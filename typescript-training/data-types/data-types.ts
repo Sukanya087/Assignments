@@ -99,6 +99,8 @@ console.log(person);
 
  let newempInfo: [string ,number , boolean] = ["sukanya", 7477575755, true];    
 
+ //
+
 
 
 

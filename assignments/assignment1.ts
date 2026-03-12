@@ -16,9 +16,14 @@ console.log(bankBalance);
 let emailID: string = "sukanya.anap09@gmail.com";
 console.log(emailID);
 
-let latitude: number = 37.7749;
-let longitude: number = -122.4194;
-console.log(latitude, longitude);
+
+interface cordinates {
+    latitude: number;
+    longitude: number;
+}
+
+let coordinates: cordinates = {latitude: 37.7749, longitude: -122.4194};
+console.log("coordinates", coordinates.latitude, coordinates.longitude);
 
 let isPersonMarried: boolean = false;
 console.log(isPersonMarried);
@@ -32,8 +37,12 @@ console.log(favouriteColor);
 let currentYear: number = 2026;
 console.log(currentYear);
 
-let NumberOfFollowers: number = 1000000;
-console.log(NumberOfFollowers);
+// let NumberOfFollowers: number = 1000000;
+// console.log(NumberOfFollowers);
+
+
+let FollowersCount: string = "1,00,000"
+console.log("FollowersCount:", FollowersCount);
 
 let MovieRating: number = 7.5;
 console.log(MovieRating);
@@ -60,5 +69,7 @@ let BithPlace: string = "India";
 console.log(BithPlace);
 
 let DistanceBetweenTwoCities: number = 500;
-console.log(DistanceBetweenTwoCities);
+console.log(DistanceBetweenTwoCities)
+
+
 
