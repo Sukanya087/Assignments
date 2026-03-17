@@ -33,9 +33,7 @@ for(let i = 0;i<empname.length;i++){
     if(experience[i]>=5){
     reward=5000;
 
-
     }
-
 
     let hike: number= (salary1[i] * variablePay)+bonus+reward;
 
